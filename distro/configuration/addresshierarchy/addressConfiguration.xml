@@ -7,20 +7,32 @@
             <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
         <addressComponent>
-            <field>COUNTY_DISTRICT</field>
-            <nameMapping>County</nameMapping>
-            <sizeMapping>40</sizeMapping>
-            <requiredInHierarchy>true</requiredInHierarchy>
-        </addressComponent>
-        <addressComponent>
             <field>STATE_PROVINCE</field>
             <nameMapping>State</nameMapping>
             <sizeMapping>40</sizeMapping>
             <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
         <addressComponent>
+            <field>COUNTY_DISTRICT</field>
+            <nameMapping>County</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>true</requiredInHierarchy>
+        </addressComponent>
+        <addressComponent>
             <field>ADDRESS_3</field>
             <nameMapping>Payam</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>false</requiredInHierarchy>
+        </addressComponent>
+        <addressComponent>
+            <field>ADDRESS_5</field>
+            <nameMapping>Boma</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>false</requiredInHierarchy>
+        </addressComponent>
+        <addressComponent>
+            <field>ADDRESS_6</field>
+            <nameMapping>Landmark</nameMapping>
             <sizeMapping>40</sizeMapping>
             <requiredInHierarchy>false</requiredInHierarchy>
         </addressComponent>
@@ -37,6 +49,8 @@
         <string>countyDistrict</string>
         <string>stateProvince</string>
         <string>address3</string>
+        <string>address5</string>
+        <string>address6</string>
         <string>cityVillage</string>
     </lineByLineFormat>
     <addressHierarchyFile>
