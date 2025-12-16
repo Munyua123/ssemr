@@ -391,9 +391,11 @@
         "useAddressHierarchy": {
           "useAddressHierarchyLabel": {
             "country": "Country",
-            "countyDistrict": "County",
             "stateProvince": "State",
+            "countyDistrict": "County",
             "address3": "Payam",
+            "address5": "Boma",
+            "address6": "Landmark",
             "cityVillage": "Village/Town"
           },
           "searchAddressByLevel": true
